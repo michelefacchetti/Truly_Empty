@@ -19,6 +19,8 @@
 		D020862D18C0A0B800A5A498 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D020861518C0A0B800A5A498 /* UIKit.framework */; };
 		D020863518C0A0B800A5A498 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D020863318C0A0B800A5A498 /* InfoPlist.strings */; };
 		D020863718C0A0B800A5A498 /* Truly_EmptyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D020863618C0A0B800A5A498 /* Truly_EmptyTests.m */; };
+		D020864318C0D1B000A5A498 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D020864118C0D1B000A5A498 /* ViewController.m */; };
+		D07A749C18CB75BB00A12152 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D07A749E18CB75BB00A12152 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		D020863218C0A0B800A5A498 /* Truly EmptyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Truly EmptyTests-Info.plist"; sourceTree = "<group>"; };
 		D020863418C0A0B800A5A498 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D020863618C0A0B800A5A498 /* Truly_EmptyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Truly_EmptyTests.m; sourceTree = "<group>"; };
+		D020864018C0D1B000A5A498 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D020864118C0D1B000A5A498 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D07A749F18CB764F00A12152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				D020862018C0A0B800A5A498 /* AppDelegate.h */,
 				D020862118C0A0B800A5A498 /* AppDelegate.m */,
+				D020864018C0D1B000A5A498 /* ViewController.h */,
+				D020864118C0D1B000A5A498 /* ViewController.m */,
+				D07A749E18CB75BB00A12152 /* ViewController.xib */,
 				D020862318C0A0B800A5A498 /* Images.xcassets */,
 				D020861818C0A0B800A5A498 /* Supporting Files */,
 			);
@@ -202,6 +210,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D020860518C0A0B800A5A498;
 			productRefGroup = D020860F18C0A0B800A5A498 /* Products */;
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D020861C18C0A0B800A5A498 /* InfoPlist.strings in Resources */,
+				D07A749C18CB75BB00A12152 /* ViewController.xib in Resources */,
 				D020862418C0A0B800A5A498 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D020864318C0D1B000A5A498 /* ViewController.m in Sources */,
 				D020862218C0A0B800A5A498 /* AppDelegate.m in Sources */,
 				D020861E18C0A0B800A5A498 /* main.m in Sources */,
 			);
@@ -277,6 +288,14 @@
 				D020863418C0A0B800A5A498 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D07A749E18CB75BB00A12152 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D07A749F18CB764F00A12152 /* Base */,
+			);
+			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -441,6 +460,7 @@
 				D020863C18C0A0B800A5A498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D020863D18C0A0B800A5A498 /* Build configuration list for PBXNativeTarget "Truly EmptyTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +469,7 @@
 				D020863F18C0A0B800A5A498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
